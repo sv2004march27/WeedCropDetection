@@ -32,8 +32,7 @@ The model achieved highly accurate detection metrics on the validation set:
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/sv2004march27/](https://github.com/sv2004march27/)<YOUR_REPO_NAME>.git
-   cd <YOUR_REPO_NAME>
+   git clone https://github.com/sv2004march27/WeedCropDetection.git
 
 2. **Install dependencies:**
 Ensure you have Python 3.8+ installed, then run:
@@ -72,7 +71,7 @@ from ultralytics import YOLO
 model = YOLO("runs/detect/train/weights/best.pt")
 
 # Run prediction
-results = model.predict(source="path_to_your_test_image.jpg", save=True, show=True)
+results = model.predict(source="image_path.jpg", save=True, show=True)
 
 ```
 
