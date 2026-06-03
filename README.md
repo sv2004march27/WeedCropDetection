@@ -101,7 +101,3 @@ results = model.predict(source="path_to_your_test_image.jpg", save=True, show=Tr
 
 * Dataset and problem statement inspired by upSkill Campus, UCT, and The IoT Academy.
 * Framework powered by [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics).
-
-```
-
-```
