@@ -90,13 +90,4 @@ results = model.predict(source="image_path.jpg", save=True, show=True)
 
 ```
 
-## 🔮 Future Enhancements
 
-* **Live Video Inference:** Implementing real-time detection via webcam or drone footage.
-* **Interactive HUD:** Adding OpenCV overlays to physically count the total number of crops vs. weeds on screen.
-* **Web UI:** Deploying the model to a Streamlit web application for easy user upload and processing.
-
-## 🤝 Acknowledgments
-
-* Dataset and problem statement inspired by upSkill Campus, UCT, and The IoT Academy.
-* Framework powered by [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics).
